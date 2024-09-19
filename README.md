@@ -46,7 +46,6 @@
     </li>
     <li><a href="#usage-examples">Usage examples</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -130,15 +129,5 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
-## Contact
-
-Mail : xxxxxxx@student.42mulhouse.fr
-
-Project Link: [https://github.com/Link-Wolf/ft_otp](https://github.com/Link-Wolf/ft_otp)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
