@@ -51,75 +51,75 @@
 </details>
 
 <!-- GOAL -->
+
 ## Goal
 
 <div align="center">
   <a>
-	<img src="https://www.onespan.com/sites/default/files/styles/max_800x800/public/2022-07/One-Button-Authenticator.png?itok=1_3U88Dn" alt="ft_otp">
+	<img src="assets/totp.webp" alt="ft_otp">
   </a>
 </div>
 </br>
 
 This cybersecurity project aims to implement a TOTP (Time-based One-Time Password) system, which will be capable of generating ephemeral passwords from a master key based on the RFC 6238 standard.
 The program has to allow the user to store a initial password in file, and that is capable of generating a new one time password every time it is requested.
-> The program is written in Python3
 
+> The program is written in Python3
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Getting Started
 
+## Getting Started
 
 ### Prerequisites
 
-- [Python3](https://www.python.org/downloads/)
-- The following modules:
-	- qrcode
-	- rsa
-	- pillow
-	- tkinter
-	- python-tk
-
+-   [Python3](https://www.python.org/downloads/)
+-   The following modules:
+    -   qrcode
+    -   rsa
+    -   pillow
+    -   tkinter
+    -   python-tk
 
 ### Installation
 
 1. Clone the repo
 
-   ```sh
-   $> git clone https://github.com/Link-Wolf/ft_otp.git
-   ```
+    ```sh
+    $> git clone https://github.com/Link-Wolf/ft_otp.git
+    ```
 
 2. Launch the script
 
-	
-   ```sh
-   $> cd ft_otp
-   $> ft_otp [-h] (-g HEX FILE | -k KEY FILE | -i)
-   ```
-   > -h, --help : display help
-   > -g HEX_FILE : generate a .key file from a 64 characters hexadecimal key
-   > -k KEY_FILE : generate a 1 time password that expires after 30 secs from a .key file
-   > -i, --interface : interface mode
+    ```sh
+    $> cd ft_otp
+    $> ft_otp [-h] (-g HEX FILE | -k KEY FILE | -i)
+    ```
 
+    > -h, --help : display help
+    > -g HEX_FILE : generate a .key file from a 64 characters hexadecimal key
+    > -k KEY_FILE : generate a 1 time password that expires after 30 secs from a .key file
+    > -i, --interface : interface mode
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage examples
 
 #### Using in command line
 
-![](https://cdn.discordapp.com/attachments/907303542438629406/1129031415732912128/image.png)
+![](assets/totp_terminal.png)
 
 #### Using in interface mode
 
-![](https://cdn.discordapp.com/attachments/907303542438629406/1129030535033925784/image.png)
+![](assets/totp_interface.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -134,6 +134,7 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
 ## Contact
 
 Mail : xxxxxxx@student.42mulhouse.fr
